@@ -1237,8 +1237,9 @@ footer .social a:hover{
 }
 
 @media(max-width: 500px){
+
     .Home{
-        background: no-repeat center/100% url("../images/bg.jpg");
+        background: no-repeat center/500% url("../images/bg.jpg");
     }
 
     .Home .Home-content .block h1{
@@ -1246,6 +1247,10 @@ footer .social a:hover{
     }
     .Home .Home-content .block h3{
         font-size: 10px;
+    }
+
+    .Home .Home-content .block h6{
+        font-size: 14px
     }
 
     .Home .Home-content .block{
@@ -1280,10 +1285,4 @@ footer .social a:hover{
         font-size: 13px;
     }
 
-}
-
-@media(max-width: 500px){
-    .Home{
-        background: no-repeat center/500% url("../images/bg.jpg");
-    }
 }
