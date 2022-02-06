@@ -47,7 +47,7 @@
                         <h1>Emmanuel Modesto</h1>
                         <h3>Desarrollador Angular</h3>
                         <div class="cv-btn">
-                            <a href="#">Download CV</a>
+                            <a href="./pdf/resume.pdf" download="CV - CRISTOPHER EMMANUEL GALLEGOS MODESTO">Descarga mi CV</a>
                         </div>
                     </div>
                 </div>
@@ -512,26 +512,29 @@
                             <p>Escribe las preguntas o comentarios que tengas.</p>
                         </div>
                     </div>
-                    <form action="">
+                    <form
+                    action="https://formspree.io/f/mgedarzy"
+                    method="POST"
+                    >
                         <div class="row space-between">
                             <div class="col-6">
-                                <input type="text" class="form-control" name="" id="" placeholder="Nombre" required>
+                                <input type="text" class="form-control" name="name" placeholder="Nombre" required>
                             </div>
 
                             <div class="col-6">
-                                <input type="email" class="form-control" name="" id="" placeholder="Email" required>
+                                <input type="email" class="form-control" name="_replyto" placeholder="Email" required>
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="col-12">
-                                <textarea class="form-control" placeholder="Tus comentarios" required></textarea>
+                                <textarea class="form-control" name="message" placeholder="Tus comentarios" required></textarea>
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="button text-right">
-                                <a type="submit" href="#Contact">Enviar</a>
+                                <button type="submit" class="button_submit">Enviar</button>
                             </div>
                         </div>
                     </form>
