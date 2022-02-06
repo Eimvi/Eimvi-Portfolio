@@ -92,7 +92,7 @@ arr.forEach(function (element) {
         }
 
         this.classList.add('active');
-        document.querySelector('.navbar').classList.toggle('show');
+        //document.querySelector('.navbar').classList.toggle('show');
     })
 })
 
