@@ -199,7 +199,7 @@ header .navbar ul li a ::before{
 }
 
 .Home .full-screen{
-    min-height: 100vh
+    min-height: 100vh;
 }
 
 .Home .Home-content{
